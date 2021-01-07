@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script defer src="/your-path-to-fontawesome/js/all.js"></script>
+</head>
+<body  >
+    <div class="header" id="topheader"  >
+         <nav class="navbar navbar-dark bg-dark">
+            
+              <a class="navbar-brand"><img src="https://img.icons8.com/color/48/000000/bluelock.png"/>InvestSuite</a>
+              <form class="d-flex">
+                <input class="form-control me-2  mr-4" type="search" placeholder="Search" aria-label="Search" >
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                <button type="button" class="btn btn-primary dropdown-toggle mr-4" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://img.icons8.com/plasticine/20/000000/mixer-logo.png"/>
+                  </button>
+                  <img class="mr-4" src="https://img.icons8.com/material-outlined/24/000000/appointment-reminders--v2.png"/>
+                <img src="https://img.icons8.com/ios/50/000000/user--v2.png"/>
+
+              </form>
+           
+          </nav>
+          <div class="wrapper ">
+              <div class="sidebar ">
+                 
+                  <ul>
+                      
+                      <li><a href="#"><img src="https://img.icons8.com/small/20/000000/home.png"/>Home</a></li>
+                      <li><a href="#"><img src="https://img.icons8.com/dotty/20/000000/mobile-order.png"/>Order</a></li>
+                      <li><a href="#"><img src="https://img.icons8.com/ios/20/000000/product--v1.png"/>Product</a></li>
+                      <li><a href="#"><img src="https://img.icons8.com/ios-glyphs/30/000000/group.png"/>Customers</a></li>
+                      <li><a href="#"><img src="https://img.icons8.com/wired/20/000000/map.png"/>Map</a></li>
+                  </ul> 
+              </div>
+              <div class="container-fluid   ">
+                <div class="card m-4 p-4 card-width">
+                  <p>  Product</p>
+                  <h4>Add Product</h4>
+                  <label >First Name</label>
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                  <p>Description</p>
+                  <div class="card  mb-3 " style="max-width: 50rem;">
+                    <div class="card-header "><img class="pr-4" src="https://img.icons8.com/fluent-systems-regular/20/000000/bold.png"/><img class="pr-4" src="https://img.icons8.com/android/20/000000/italic.png"/><img class="pr-4" src="https://img.icons8.com/material/20/000000/underline--v1.png"/><img class="pr-4" src="https://img.icons8.com/ios/25/000000/numbered-list.png"/><img class="pr-4" src="https://img.icons8.com/ios/25/000000/list--v2.png"/>
+                      <img class="pr-4" src="https://img.icons8.com/ios-filled/26/000000/link--v1.png"/>
+                    </div>
+                      <textarea name="message" class="form-control" cols="30" rows="10"></textarea>
+                  </div>
+                </div>
+                <div class="card m-4 p-4 card-width">
+                  <h4>Add Product</h4>
+                  <div class="d-flex flex-row">
+                    <div class="p-4"><img  src="https://store.appogee.com/pub/media/catalog/product/cache/a237138a07ed0dd2cc8a6fa440635ea6/4/2/42-alu-silver-sport-white-s3-gallery2_1.jpeg" alt="avatar" class="img-thumbnail"/></div>
+                    <div class="p-4"> <img  src="https://www.kvstech.com/img/service/product.jpg" alt="avatar" class="img-thumbnail"/></div>
+                    <div class="p-4"> <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOK-NhPktI578VVZIFzwqfZCsEvDUiufLIpQ&usqp=CAU" alt="avatar" class="img-thumbnail"/></div>
+                  </div>
+                  <div class="d-flex flex-row">
+                    <div class="p-4"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXklo9QSjQ-IrDhNioLRFdpyjOQRN3JsTvmQ&usqp=CAU" alt="avatar" class="img-thumbnail"/></div>
+                    <div class="p-4"> <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8r1_3mPJkjt_vMDToIDPgc9yRsYjIKC8ADQ&usqp=CAU" alt="avatar" class="img-thumbnail"/></div>
+                    
+                  </div>
+                </div>
+                <div class="card m-4 p-4 card-width">
+                  <p>Inventory</p>
+                  <label >Suk(Stock Keeping Unit)</label>
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+
+                  <label >Barcode(ISBN,UPC,GTIN,etc.)</label>
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                 
+                </div>
+
+                <div class="card m-4 p-4 card-width">
+                  <h4 class="mb-4" >variants</h4>
+                  <div class="d-flex flex-row">
+                    <button class="btn btn-secondary dropdown-toggle w-50 h-50" type="button" style="height: 200px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Size</button>
+
+                    <div class="input-group ml-4 mb-4">
+                      <input type="text" class="form-control "  style="height:200px" aria-describedby="basic-addon3">
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row">
+                    <button class="btn btn-secondary dropdown-toggle w-50 h-25" type="button" style="height: 100px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Color</button>
+
+                    <div class="input-group ml-4">
+                      <input type="text" class="form-control" style="height:100px" aria-describedby="basic-addon3">
+                    </div>
+                  </div>
+                  
+                  <h4 style="margin-top: 50px;">Variants Details</h4>
+                  <table class="table " style="margin-top: 10px;">
+                    <caption>List of users</caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">Variants</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Vendor</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">SKU</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td><input type="text"  maxlength="4" size="20"></td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+               
+                </div>
+                
+                
+              </div> 
+              <div class="pt-5 pr-2" >
+                <div class="card m-2 pl-2" style="width: 90; margin-top: 0px;">
+                  <h4 class="" style="margin-top: 10px;">Quality</h4>
+                  <label >avalibal</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                    <div class="input-group-append pr-2">
+                      <button type="button" class="btn btn-outline-secondary">Action</button>
+                    </div>
+                  </div>
+                  <h4 class="pt-4" style="margin-top: 10px;">Pricing</h4>
+                  <label class="p-2" >Price</label>
+                  <div class="input-group pr-2">
+                    <input type="text" class="form-control pr-2" style="margin-right: 5px;" aria-label="Text input with segmented dropdown button">
+                    
+                   </div>
+                   <label class="p-2" >Cost per item</label>
+                  <div class="input-group pr-2">
+                    <input type="text" class="form-control " style="margin-right: 5px;" aria-label="Text input with segmented dropdown button">
+                    
+                   </div>
+                   <div style="margin-top: 25px;">
+                   <h4 class="" style="margin-top: 10px;">Product Details</h4>
+                   <label >Product type</label>
+                   <div class="input-group pr-2" style="margin-bottom:auto;">
+                    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                   
+                    <div class="input-group-append">
+                      <button type="button" class="btn btn-outline-secondary">Action</button>
+                      <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <div class="dropdown-menu ">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    <div style="margin-top:25px; margin-bottom: 10px;">
+                    <h4 class="" style="margin-top: 10px;">Tages</h4>
+                    <label >Tags type</label>
+                    <div class="input-group pr-2" >
+                     <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                    </div>
+                    </div>
+                  
+                   
+          </div>
+           
+
+            </div>
+
+            </div>
+            
+           
+          
+          
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
